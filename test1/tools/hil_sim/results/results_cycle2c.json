@@ -1,0 +1,306 @@
+[
+ {
+  "scenario": "break_dual",
+  "ok": false,
+  "wall_s": 18.4,
+  "checks": [
+   {
+    "ok": true,
+    "text": "a single break of the dual ring does not trip the AMS"
+   },
+   {
+    "ok": true,
+    "text": "ring opening detected"
+   },
+   {
+    "ok": true,
+    "text": "ring closing detected"
+   },
+   {
+    "ok": true,
+    "text": "slaves 7..12 moved to the L9963TL ([7, 8, 9, 10, 11, 12])"
+   },
+   {
+    "ok": true,
+    "text": "no fault while the ring is open"
+   },
+   {
+    "ok": true,
+    "text": "cycle time with the ring open 20 ms"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": false,
+    "text": "TH rx queue never overflowed (59)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S2: Normal, chip_ID=2 (got Normal id=2)"
+   },
+   {
+    "ok": true,
+    "text": "S2: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S2: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S3: Normal, chip_ID=3 (got Normal id=3)"
+   },
+   {
+    "ok": true,
+    "text": "S3: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S3: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S4: Normal, chip_ID=4 (got Normal id=4)"
+   },
+   {
+    "ok": true,
+    "text": "S4: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S4: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S5: Normal, chip_ID=5 (got Normal id=5)"
+   },
+   {
+    "ok": true,
+    "text": "S5: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S5: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S6: Normal, chip_ID=6 (got Normal id=6)"
+   },
+   {
+    "ok": true,
+    "text": "S6: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S6: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S7: Normal, chip_ID=7 (got Normal id=7)"
+   },
+   {
+    "ok": true,
+    "text": "S7: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S7: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S8: Normal, chip_ID=8 (got Normal id=8)"
+   },
+   {
+    "ok": true,
+    "text": "S8: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S8: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S9: Normal, chip_ID=9 (got Normal id=9)"
+   },
+   {
+    "ok": true,
+    "text": "S9: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S9: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S10: Normal, chip_ID=10 (got Normal id=10)"
+   },
+   {
+    "ok": true,
+    "text": "S10: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S10: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S11: Normal, chip_ID=11 (got Normal id=11)"
+   },
+   {
+    "ok": true,
+    "text": "S11: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S11: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 12 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S12: Normal, chip_ID=12 (got Normal id=12)"
+   },
+   {
+    "ok": true,
+    "text": "S12: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S12: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S12: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "WARN LED on while the ring is open"
+   },
+   {
+    "ok": true,
+    "text": "WARN LED off when the ring is closed again"
+   },
+   {
+    "ok": true,
+    "text": "all slaves back on the L9963TH after the ring closed"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/break_dual_ring_n12"
+ }
+]

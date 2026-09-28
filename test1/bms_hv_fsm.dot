@@ -1,0 +1,37 @@
+digraph{
+    active_idle -> balancing -> active_idle
+    active_idle -> charging_idle -> active_idle
+    active_idle -> driving_idle -> active_idle
+
+    resetting_airs_precharge -> active_idle
+    resetting_errors -> active_idle
+
+    /* Driving & Charging routines (Switch between driving and charging will happen using the flag)
+    When BMS enters driving idle DRIVING is SET and charging is reset, and when enters to charging CHARGING is SET and driving is reset
+    So, the transition from opening precharge to driving or charging is controlled via the flag*/
+    driving_idle -> closing_air_neg
+    charging_idle -> closing_air_neg
+    closing_air_neg -> closing_precharge -> precharge -> closing_air_pos -> opening_precharge
+    opening_precharge -> driving
+    opening_precharge -> charging
+    driving -> resetting_airs_precharge
+    charging -> resetting_airs_precharge 
+    /* Errors during closing airs and precharge */
+    closing_air_neg -> resetting_airs_precharge
+    closing_precharge -> resetting_airs_precharge
+    closing_air_pos -> resetting_airs_precharge
+    /* AMS/IMD Errors Merged state */
+    active_idle -> ams_imd_error
+    driving_idle -> ams_imd_error
+    charging_idle -> ams_imd_error
+    closing_air_neg -> ams_imd_error
+    closing_precharge -> ams_imd_error
+    closing_air_pos -> ams_imd_error
+    opening_precharge -> ams_imd_error
+    driving -> ams_imd_error
+    charging -> ams_imd_error
+    balancing -> ams_imd_error
+    resetting_airs_precharge -> ams_imd_error
+    ams_imd_error -> resetting_errors             
+
+}

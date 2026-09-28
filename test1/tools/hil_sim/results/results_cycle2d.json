@@ -1,0 +1,22 @@
+[
+ {
+  "scenario": "can_noack",
+  "ok": true,
+  "wall_s": 11.3,
+  "checks": [
+   {
+    "ok": true,
+    "text": "measurements keep running with CAN mailboxes stuck"
+   },
+   {
+    "ok": true,
+    "text": "no AMS error"
+   },
+   {
+    "ok": true,
+    "text": "stale frames aborted by the firmware (486)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/can_no_ack"
+ }
+]

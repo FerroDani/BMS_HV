@@ -1,0 +1,118 @@
+/*
+ * "THE BEER-WARE LICENSE" (Revision 69):
+ * Squadra Corse firmware team wrote this file. As long as you retain this notice
+ * you can do whatever you want with this stuff. If we meet some day, and you
+ * think this stuff is worth it, you can buy us a beer in return.
+ *
+ * Authors
+ * - Filippo Rossi <filippo.rossi.sc@gmail.com>
+ * - Federico Carbone <federico.carbone.sc@gmail.com>
+ */
+
+#include "{{ name }}.h"
+
+#ifndef __weak
+#define __weak __attribute__((weak))
+#endif // __weak
+
+// Private wrapper function signatures
+{% for state in states %}
+uint32_t _FSM_{{ name | upper }}_{{ state }}_event_handle(uint8_t event);
+uint32_t _FSM_{{ name | upper }}_{{ state }}_do_work();
+{% endfor %}
+
+static const char* state_name[_FSM_{{ name | upper }}_STATE_COUNT] = {
+{%- for state in states %}
+    [FSM_{{ name | upper }}_{{ state }}] = "{{ state }}",
+{%- endfor %}
+};
+
+FSM_StateTypeDef state_table[_FSM_{{ name | upper }}_STATE_COUNT] = {
+{%- for state in states %}
+    [FSM_{{ name | upper }}_{{ state }}] = {
+        .event_handler = _FSM_{{ name | upper }}_{{ state }}_event_handle,
+        .entry = FSM_{{ name | upper }}_{{ state }}_entry,
+        .do_work = _FSM_{{ name | upper }}_{{ state }}_do_work,
+        .exit = FSM_{{ name | upper }}_{{ state }}_exit,
+    },
+{%- endfor %}
+};
+
+FSM_ConfigTypeDef config = {
+    .state_length = _FSM_{{ name | upper }}_STATE_COUNT,
+    .state_table = state_table,
+};
+
+const char* FSM_{{ name | upper }}_to_string(FSM_{{ name | upper }}_StateTypeDef state) {
+    if (0 <= state && state < _FSM_{{ name | upper }}_STATE_COUNT)
+        return state_name[state];
+    
+    return "UNKNOWN";
+}
+
+STMLIBS_StatusTypeDef FSM_{{ name | upper }}_init(
+    FSM_HandleTypeDef *handle,
+    uint8_t event_count,
+    FSM_callback_function run_callback,
+    FSM_callback_function transition_callback
+) {
+    return FSM_init(handle, &config, event_count, run_callback, transition_callback);
+}
+
+// State control functions
+{% for state in states %}
+/** @brief wrapper of FSM_{{ name | upper }}_event_handle, with exit state checking */
+uint32_t _FSM_{{ name | upper }}_{{ state }}_event_handle(uint8_t event) {
+    uint32_t next = (uint32_t)FSM_{{ name | upper }}_{{ state }}_event_handle(event);
+
+    switch (next) {
+    {%- if state not in exits[state] %}
+    case FSM_{{ name | upper }}_{{ state }}: // Reentrance is always supported on event handlers
+    {%- endif %}
+    {%- for exit in exits[state] %}
+    case FSM_{{ name | upper }}_{{ exit }}:
+    {%- endfor %}
+        return next;
+    default:
+        return _FSM_{{ name | upper }}_DIE;
+    }
+}
+
+/** @brief wrapper of FSM_{{ name | upper }}_do_work, with exit state checking */
+uint32_t _FSM_{{ name | upper }}_{{ state }}_do_work() {
+    uint32_t next = (uint32_t)FSM_{{ name | upper }}_{{ state }}_do_work();
+
+    switch (next) {
+    {%- for exit in exits[state] %}
+    case FSM_{{ name | upper }}_{{ exit }}:
+    {%- endfor %}
+        return next;
+    default:
+        return _FSM_{{ name | upper }}_DIE;
+    }
+}
+{% endfor %}
+
+// State functions
+{% for state in states %}
+/** @attention this function is a stub and as such is declared as weak. */
+__weak FSM_{{ name | upper }}_StateTypeDef FSM_{{ name | upper }}_{{ state }}_event_handle(uint8_t event) {
+    return FSM_{{ name | upper }}_{{ state }};
+}
+
+/** @attention this function is a stub and as such is declared as weak. */
+__weak void FSM_{{ name | upper }}_{{ state }}_entry() {
+    return;
+}
+
+/** @attention this function is a stub and as such is declared as weak. */
+__weak FSM_{{ name | upper }}_StateTypeDef FSM_{{ name | upper }}_{{ state }}_do_work() {
+    return FSM_{{ name | upper }}_{{ state }};
+}
+
+/** @attention this function is a stub and as such is declared as weak. */
+__weak void FSM_{{ name | upper }}_{{ state }}_exit() {
+    return;
+}
+{% endfor %}
+

@@ -1,0 +1,4478 @@
+[
+ {
+  "scenario": "nominal_n1",
+  "ok": true,
+  "wall_s": 13.3,
+  "checks": [
+   {
+    "ok": true,
+    "text": "chain initialised exactly once (1)"
+   },
+   {
+    "ok": true,
+    "text": "chain ready at 0.040 s (< 0.5 s)"
+   },
+   {
+    "ok": true,
+    "text": "no AMS error / fault (ams=0 faults=0x00)"
+   },
+   {
+    "ok": true,
+    "text": "measurement cycles 40 in 3.96 s after ready (period 100 ms)"
+   },
+   {
+    "ok": true,
+    "text": "cycle duration 6 ms"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 reported"
+   },
+   {
+    "ok": true,
+    "text": "S1 cells [3703, 3706, 3709].. == model [3703, 3706, 3709].."
+   },
+   {
+    "ok": true,
+    "text": "S1 VSUM 40925 ~ 40925"
+   },
+   {
+    "ok": true,
+    "text": "S1 VBATT_DIV 40925 ~ 40925"
+   },
+   {
+    "ok": true,
+    "text": "S1 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S1 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x200 transmitted (495)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x200 period 10.0 ms (nominal 10)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x203 transmitted (248)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x203 period 20.0 ms (nominal 20)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x204 transmitted (248)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x204 period 20.0 ms (nominal 20)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x206 transmitted (49)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x206 period 100.0 ms (nominal 100)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x208 transmitted (49)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x208 period 100.0 ms (nominal 100)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x20F transmitted (4)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x20F period 1000.0 ms (nominal 1000)"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Status stSys = 1 running (last 1)"
+   },
+   {
+    "ok": true,
+    "text": "final snapshot"
+   },
+   {
+    "ok": true,
+    "text": "AMS_ERROR pin (PC6) low"
+   },
+   {
+    "ok": true,
+    "text": "ERR LED off"
+   },
+   {
+    "ok": true,
+    "text": "STAT2 LED on (chain ready)"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "TH rx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S1: isotx_en_h=0"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/nominal_n1"
+ },
+ {
+  "scenario": "nominal_n11",
+  "ok": true,
+  "wall_s": 15.0,
+  "checks": [
+   {
+    "ok": true,
+    "text": "chain initialised exactly once (1)"
+   },
+   {
+    "ok": true,
+    "text": "chain ready at 0.142 s (< 0.5 s)"
+   },
+   {
+    "ok": true,
+    "text": "no AMS error / fault (ams=0 faults=0x00)"
+   },
+   {
+    "ok": true,
+    "text": "measurement cycles 40 in 3.86 s after ready (period 100 ms)"
+   },
+   {
+    "ok": true,
+    "text": "cycle duration 13 ms"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 reported"
+   },
+   {
+    "ok": true,
+    "text": "S1 cells [3703, 3706, 3709].. == model [3703, 3706, 3709].."
+   },
+   {
+    "ok": true,
+    "text": "S1 VSUM 40925 ~ 40925"
+   },
+   {
+    "ok": true,
+    "text": "S1 VBATT_DIV 40925 ~ 40925"
+   },
+   {
+    "ok": true,
+    "text": "S1 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S1 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 reported"
+   },
+   {
+    "ok": true,
+    "text": "S2 cells [3704, 3707, 3710].. == model [3704, 3707, 3710].."
+   },
+   {
+    "ok": true,
+    "text": "S2 VSUM 40936 ~ 40936"
+   },
+   {
+    "ok": true,
+    "text": "S2 VBATT_DIV 40936 ~ 40936"
+   },
+   {
+    "ok": true,
+    "text": "S2 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S2 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 reported"
+   },
+   {
+    "ok": true,
+    "text": "S3 cells [3705, 3708, 3711].. == model [3705, 3708, 3711].."
+   },
+   {
+    "ok": true,
+    "text": "S3 VSUM 40947 ~ 40947"
+   },
+   {
+    "ok": true,
+    "text": "S3 VBATT_DIV 40947 ~ 40947"
+   },
+   {
+    "ok": true,
+    "text": "S3 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S3 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 reported"
+   },
+   {
+    "ok": true,
+    "text": "S4 cells [3706, 3709, 3712].. == model [3706, 3709, 3712].."
+   },
+   {
+    "ok": true,
+    "text": "S4 VSUM 40958 ~ 40958"
+   },
+   {
+    "ok": true,
+    "text": "S4 VBATT_DIV 40957 ~ 40957"
+   },
+   {
+    "ok": true,
+    "text": "S4 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S4 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 reported"
+   },
+   {
+    "ok": true,
+    "text": "S5 cells [3707, 3710, 3713].. == model [3707, 3710, 3713].."
+   },
+   {
+    "ok": true,
+    "text": "S5 VSUM 40969 ~ 40969"
+   },
+   {
+    "ok": true,
+    "text": "S5 VBATT_DIV 40969 ~ 40969"
+   },
+   {
+    "ok": true,
+    "text": "S5 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S5 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 reported"
+   },
+   {
+    "ok": true,
+    "text": "S6 cells [3708, 3711, 3714].. == model [3708, 3711, 3714].."
+   },
+   {
+    "ok": true,
+    "text": "S6 VSUM 40980 ~ 40980"
+   },
+   {
+    "ok": true,
+    "text": "S6 VBATT_DIV 40980 ~ 40980"
+   },
+   {
+    "ok": true,
+    "text": "S6 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S6 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 reported"
+   },
+   {
+    "ok": true,
+    "text": "S7 cells [3709, 3712, 3715].. == model [3709, 3712, 3715].."
+   },
+   {
+    "ok": true,
+    "text": "S7 VSUM 40991 ~ 40991"
+   },
+   {
+    "ok": true,
+    "text": "S7 VBATT_DIV 40991 ~ 40991"
+   },
+   {
+    "ok": true,
+    "text": "S7 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S7 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 reported"
+   },
+   {
+    "ok": true,
+    "text": "S8 cells [3710, 3713, 3716].. == model [3710, 3713, 3716].."
+   },
+   {
+    "ok": true,
+    "text": "S8 VSUM 41002 ~ 41002"
+   },
+   {
+    "ok": true,
+    "text": "S8 VBATT_DIV 41003 ~ 41003"
+   },
+   {
+    "ok": true,
+    "text": "S8 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S8 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 reported"
+   },
+   {
+    "ok": true,
+    "text": "S9 cells [3711, 3714, 3717].. == model [3711, 3714, 3717].."
+   },
+   {
+    "ok": true,
+    "text": "S9 VSUM 41013 ~ 41013"
+   },
+   {
+    "ok": true,
+    "text": "S9 VBATT_DIV 41013 ~ 41013"
+   },
+   {
+    "ok": true,
+    "text": "S9 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S9 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 reported"
+   },
+   {
+    "ok": true,
+    "text": "S10 cells [3712, 3715, 3718].. == model [3712, 3715, 3718].."
+   },
+   {
+    "ok": true,
+    "text": "S10 VSUM 41024 ~ 41024"
+   },
+   {
+    "ok": true,
+    "text": "S10 VBATT_DIV 41024 ~ 41024"
+   },
+   {
+    "ok": true,
+    "text": "S10 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S10 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 reported"
+   },
+   {
+    "ok": true,
+    "text": "S11 cells [3713, 3716, 3719].. == model [3713, 3716, 3719].."
+   },
+   {
+    "ok": true,
+    "text": "S11 VSUM 41035 ~ 41035"
+   },
+   {
+    "ok": true,
+    "text": "S11 VBATT_DIV 41034 ~ 41034"
+   },
+   {
+    "ok": true,
+    "text": "S11 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S11 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x200 transmitted (436)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x200 period 11.1 ms (nominal 10)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x203 transmitted (242)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x203 period 20.0 ms (nominal 20)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x204 transmitted (242)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x204 period 20.0 ms (nominal 20)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x206 transmitted (49)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x206 period 100.0 ms (nominal 100)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x208 transmitted (49)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x208 period 100.0 ms (nominal 100)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x20F transmitted (4)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x20F period 1000.0 ms (nominal 1000)"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Status stSys = 1 running (last 1)"
+   },
+   {
+    "ok": true,
+    "text": "final snapshot"
+   },
+   {
+    "ok": true,
+    "text": "AMS_ERROR pin (PC6) low"
+   },
+   {
+    "ok": true,
+    "text": "ERR LED off"
+   },
+   {
+    "ok": true,
+    "text": "STAT2 LED on (chain ready)"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "TH rx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S2: Normal, chip_ID=2 (got Normal id=2)"
+   },
+   {
+    "ok": true,
+    "text": "S2: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S2: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S3: Normal, chip_ID=3 (got Normal id=3)"
+   },
+   {
+    "ok": true,
+    "text": "S3: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S3: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S4: Normal, chip_ID=4 (got Normal id=4)"
+   },
+   {
+    "ok": true,
+    "text": "S4: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S4: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S5: Normal, chip_ID=5 (got Normal id=5)"
+   },
+   {
+    "ok": true,
+    "text": "S5: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S5: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S6: Normal, chip_ID=6 (got Normal id=6)"
+   },
+   {
+    "ok": true,
+    "text": "S6: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S6: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S7: Normal, chip_ID=7 (got Normal id=7)"
+   },
+   {
+    "ok": true,
+    "text": "S7: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S7: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S8: Normal, chip_ID=8 (got Normal id=8)"
+   },
+   {
+    "ok": true,
+    "text": "S8: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S8: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S9: Normal, chip_ID=9 (got Normal id=9)"
+   },
+   {
+    "ok": true,
+    "text": "S9: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S9: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S10: Normal, chip_ID=10 (got Normal id=10)"
+   },
+   {
+    "ok": true,
+    "text": "S10: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S10: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S11: Normal, chip_ID=11 (got Normal id=11)"
+   },
+   {
+    "ok": true,
+    "text": "S11: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S11: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S1: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S2: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S3: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S4: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S5: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S6: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S7: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S8: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S9: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S10: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S11: isotx_en_h=0"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/nominal_n11"
+ },
+ {
+  "scenario": "nominal_n12",
+  "ok": true,
+  "wall_s": 15.8,
+  "checks": [
+   {
+    "ok": true,
+    "text": "chain initialised exactly once (1)"
+   },
+   {
+    "ok": true,
+    "text": "chain ready at 0.152 s (< 0.5 s)"
+   },
+   {
+    "ok": true,
+    "text": "no AMS error / fault (ams=0 faults=0x00)"
+   },
+   {
+    "ok": true,
+    "text": "measurement cycles 40 in 3.85 s after ready (period 100 ms)"
+   },
+   {
+    "ok": true,
+    "text": "cycle duration 13 ms"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 reported"
+   },
+   {
+    "ok": true,
+    "text": "S1 cells [3703, 3706, 3709].. == model [3703, 3706, 3709].."
+   },
+   {
+    "ok": true,
+    "text": "S1 VSUM 40925 ~ 40925"
+   },
+   {
+    "ok": true,
+    "text": "S1 VBATT_DIV 40925 ~ 40925"
+   },
+   {
+    "ok": true,
+    "text": "S1 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S1 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 reported"
+   },
+   {
+    "ok": true,
+    "text": "S2 cells [3704, 3707, 3710].. == model [3704, 3707, 3710].."
+   },
+   {
+    "ok": true,
+    "text": "S2 VSUM 40936 ~ 40936"
+   },
+   {
+    "ok": true,
+    "text": "S2 VBATT_DIV 40936 ~ 40936"
+   },
+   {
+    "ok": true,
+    "text": "S2 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S2 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 reported"
+   },
+   {
+    "ok": true,
+    "text": "S3 cells [3705, 3708, 3711].. == model [3705, 3708, 3711].."
+   },
+   {
+    "ok": true,
+    "text": "S3 VSUM 40947 ~ 40947"
+   },
+   {
+    "ok": true,
+    "text": "S3 VBATT_DIV 40947 ~ 40947"
+   },
+   {
+    "ok": true,
+    "text": "S3 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S3 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 reported"
+   },
+   {
+    "ok": true,
+    "text": "S4 cells [3706, 3709, 3712].. == model [3706, 3709, 3712].."
+   },
+   {
+    "ok": true,
+    "text": "S4 VSUM 40958 ~ 40958"
+   },
+   {
+    "ok": true,
+    "text": "S4 VBATT_DIV 40957 ~ 40957"
+   },
+   {
+    "ok": true,
+    "text": "S4 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S4 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 reported"
+   },
+   {
+    "ok": true,
+    "text": "S5 cells [3707, 3710, 3713].. == model [3707, 3710, 3713].."
+   },
+   {
+    "ok": true,
+    "text": "S5 VSUM 40969 ~ 40969"
+   },
+   {
+    "ok": true,
+    "text": "S5 VBATT_DIV 40969 ~ 40969"
+   },
+   {
+    "ok": true,
+    "text": "S5 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S5 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 reported"
+   },
+   {
+    "ok": true,
+    "text": "S6 cells [3708, 3711, 3714].. == model [3708, 3711, 3714].."
+   },
+   {
+    "ok": true,
+    "text": "S6 VSUM 40980 ~ 40980"
+   },
+   {
+    "ok": true,
+    "text": "S6 VBATT_DIV 40980 ~ 40980"
+   },
+   {
+    "ok": true,
+    "text": "S6 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S6 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 reported"
+   },
+   {
+    "ok": true,
+    "text": "S7 cells [3709, 3712, 3715].. == model [3709, 3712, 3715].."
+   },
+   {
+    "ok": true,
+    "text": "S7 VSUM 40991 ~ 40991"
+   },
+   {
+    "ok": true,
+    "text": "S7 VBATT_DIV 40991 ~ 40991"
+   },
+   {
+    "ok": true,
+    "text": "S7 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S7 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 reported"
+   },
+   {
+    "ok": true,
+    "text": "S8 cells [3710, 3713, 3716].. == model [3710, 3713, 3716].."
+   },
+   {
+    "ok": true,
+    "text": "S8 VSUM 41002 ~ 41002"
+   },
+   {
+    "ok": true,
+    "text": "S8 VBATT_DIV 41003 ~ 41003"
+   },
+   {
+    "ok": true,
+    "text": "S8 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S8 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 reported"
+   },
+   {
+    "ok": true,
+    "text": "S9 cells [3711, 3714, 3717].. == model [3711, 3714, 3717].."
+   },
+   {
+    "ok": true,
+    "text": "S9 VSUM 41013 ~ 41013"
+   },
+   {
+    "ok": true,
+    "text": "S9 VBATT_DIV 41013 ~ 41013"
+   },
+   {
+    "ok": true,
+    "text": "S9 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S9 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 reported"
+   },
+   {
+    "ok": true,
+    "text": "S10 cells [3712, 3715, 3718].. == model [3712, 3715, 3718].."
+   },
+   {
+    "ok": true,
+    "text": "S10 VSUM 41024 ~ 41024"
+   },
+   {
+    "ok": true,
+    "text": "S10 VBATT_DIV 41024 ~ 41024"
+   },
+   {
+    "ok": true,
+    "text": "S10 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S10 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 reported"
+   },
+   {
+    "ok": true,
+    "text": "S11 cells [3713, 3716, 3719].. == model [3713, 3716, 3719].."
+   },
+   {
+    "ok": true,
+    "text": "S11 VSUM 41035 ~ 41035"
+   },
+   {
+    "ok": true,
+    "text": "S11 VBATT_DIV 41034 ~ 41034"
+   },
+   {
+    "ok": true,
+    "text": "S11 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S11 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 12 reported"
+   },
+   {
+    "ok": true,
+    "text": "S12 cells [3714, 3717, 3720].. == model [3714, 3717, 3720].."
+   },
+   {
+    "ok": true,
+    "text": "S12 VSUM 41046 ~ 41046"
+   },
+   {
+    "ok": true,
+    "text": "S12 VBATT_DIV 41046 ~ 41046"
+   },
+   {
+    "ok": true,
+    "text": "S12 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S12 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x200 transmitted (435)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x200 period 11.1 ms (nominal 10)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x203 transmitted (241)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x203 period 20.1 ms (nominal 20)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x204 transmitted (241)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x204 period 20.1 ms (nominal 20)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x206 transmitted (49)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x206 period 100.0 ms (nominal 100)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x208 transmitted (49)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x208 period 100.0 ms (nominal 100)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x20F transmitted (4)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x20F period 1000.0 ms (nominal 1000)"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Status stSys = 1 running (last 1)"
+   },
+   {
+    "ok": true,
+    "text": "final snapshot"
+   },
+   {
+    "ok": true,
+    "text": "AMS_ERROR pin (PC6) low"
+   },
+   {
+    "ok": true,
+    "text": "ERR LED off"
+   },
+   {
+    "ok": true,
+    "text": "STAT2 LED on (chain ready)"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "TH rx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S2: Normal, chip_ID=2 (got Normal id=2)"
+   },
+   {
+    "ok": true,
+    "text": "S2: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S2: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S3: Normal, chip_ID=3 (got Normal id=3)"
+   },
+   {
+    "ok": true,
+    "text": "S3: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S3: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S4: Normal, chip_ID=4 (got Normal id=4)"
+   },
+   {
+    "ok": true,
+    "text": "S4: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S4: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S5: Normal, chip_ID=5 (got Normal id=5)"
+   },
+   {
+    "ok": true,
+    "text": "S5: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S5: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S6: Normal, chip_ID=6 (got Normal id=6)"
+   },
+   {
+    "ok": true,
+    "text": "S6: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S6: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S7: Normal, chip_ID=7 (got Normal id=7)"
+   },
+   {
+    "ok": true,
+    "text": "S7: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S7: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S8: Normal, chip_ID=8 (got Normal id=8)"
+   },
+   {
+    "ok": true,
+    "text": "S8: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S8: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S9: Normal, chip_ID=9 (got Normal id=9)"
+   },
+   {
+    "ok": true,
+    "text": "S9: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S9: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S10: Normal, chip_ID=10 (got Normal id=10)"
+   },
+   {
+    "ok": true,
+    "text": "S10: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S10: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S11: Normal, chip_ID=11 (got Normal id=11)"
+   },
+   {
+    "ok": true,
+    "text": "S11: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S11: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 12 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S12: Normal, chip_ID=12 (got Normal id=12)"
+   },
+   {
+    "ok": true,
+    "text": "S12: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S12: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S12: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S1: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S2: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S3: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S4: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S5: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S6: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S7: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S8: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S9: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S10: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S11: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S12: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S12: isotx_en_h=0"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/nominal_n12"
+ },
+ {
+  "scenario": "nominal_n12dual",
+  "ok": false,
+  "wall_s": 14.8,
+  "checks": [
+   {
+    "ok": true,
+    "text": "chain initialised exactly once (1)"
+   },
+   {
+    "ok": true,
+    "text": "chain ready at 0.155 s (< 0.5 s)"
+   },
+   {
+    "ok": true,
+    "text": "no AMS error / fault (ams=0 faults=0x00)"
+   },
+   {
+    "ok": true,
+    "text": "measurement cycles 40 in 3.85 s after ready (period 100 ms)"
+   },
+   {
+    "ok": true,
+    "text": "cycle duration 13 ms"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 reported"
+   },
+   {
+    "ok": true,
+    "text": "S1 cells [3703, 3706, 3709].. == model [3703, 3706, 3709].."
+   },
+   {
+    "ok": true,
+    "text": "S1 VSUM 40925 ~ 40925"
+   },
+   {
+    "ok": true,
+    "text": "S1 VBATT_DIV 40925 ~ 40925"
+   },
+   {
+    "ok": true,
+    "text": "S1 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S1 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 reported"
+   },
+   {
+    "ok": true,
+    "text": "S2 cells [3704, 3707, 3710].. == model [3704, 3707, 3710].."
+   },
+   {
+    "ok": true,
+    "text": "S2 VSUM 40936 ~ 40936"
+   },
+   {
+    "ok": true,
+    "text": "S2 VBATT_DIV 40936 ~ 40936"
+   },
+   {
+    "ok": true,
+    "text": "S2 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S2 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 reported"
+   },
+   {
+    "ok": true,
+    "text": "S3 cells [3705, 3708, 3711].. == model [3705, 3708, 3711].."
+   },
+   {
+    "ok": true,
+    "text": "S3 VSUM 40947 ~ 40947"
+   },
+   {
+    "ok": true,
+    "text": "S3 VBATT_DIV 40947 ~ 40947"
+   },
+   {
+    "ok": true,
+    "text": "S3 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S3 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 reported"
+   },
+   {
+    "ok": true,
+    "text": "S4 cells [3706, 3709, 3712].. == model [3706, 3709, 3712].."
+   },
+   {
+    "ok": true,
+    "text": "S4 VSUM 40958 ~ 40958"
+   },
+   {
+    "ok": true,
+    "text": "S4 VBATT_DIV 40957 ~ 40957"
+   },
+   {
+    "ok": true,
+    "text": "S4 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S4 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 reported"
+   },
+   {
+    "ok": true,
+    "text": "S5 cells [3707, 3710, 3713].. == model [3707, 3710, 3713].."
+   },
+   {
+    "ok": true,
+    "text": "S5 VSUM 40969 ~ 40969"
+   },
+   {
+    "ok": true,
+    "text": "S5 VBATT_DIV 40969 ~ 40969"
+   },
+   {
+    "ok": true,
+    "text": "S5 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S5 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 reported"
+   },
+   {
+    "ok": true,
+    "text": "S6 cells [3708, 3711, 3714].. == model [3708, 3711, 3714].."
+   },
+   {
+    "ok": true,
+    "text": "S6 VSUM 40980 ~ 40980"
+   },
+   {
+    "ok": true,
+    "text": "S6 VBATT_DIV 40980 ~ 40980"
+   },
+   {
+    "ok": true,
+    "text": "S6 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S6 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 reported"
+   },
+   {
+    "ok": true,
+    "text": "S7 cells [3709, 3712, 3715].. == model [3709, 3712, 3715].."
+   },
+   {
+    "ok": true,
+    "text": "S7 VSUM 40991 ~ 40991"
+   },
+   {
+    "ok": true,
+    "text": "S7 VBATT_DIV 40991 ~ 40991"
+   },
+   {
+    "ok": true,
+    "text": "S7 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S7 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 reported"
+   },
+   {
+    "ok": true,
+    "text": "S8 cells [3710, 3713, 3716].. == model [3710, 3713, 3716].."
+   },
+   {
+    "ok": true,
+    "text": "S8 VSUM 41002 ~ 41002"
+   },
+   {
+    "ok": true,
+    "text": "S8 VBATT_DIV 41003 ~ 41003"
+   },
+   {
+    "ok": true,
+    "text": "S8 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S8 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 reported"
+   },
+   {
+    "ok": true,
+    "text": "S9 cells [3711, 3714, 3717].. == model [3711, 3714, 3717].."
+   },
+   {
+    "ok": true,
+    "text": "S9 VSUM 41013 ~ 41013"
+   },
+   {
+    "ok": true,
+    "text": "S9 VBATT_DIV 41013 ~ 41013"
+   },
+   {
+    "ok": true,
+    "text": "S9 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S9 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 reported"
+   },
+   {
+    "ok": true,
+    "text": "S10 cells [3712, 3715, 3718].. == model [3712, 3715, 3718].."
+   },
+   {
+    "ok": true,
+    "text": "S10 VSUM 41024 ~ 41024"
+   },
+   {
+    "ok": true,
+    "text": "S10 VBATT_DIV 41024 ~ 41024"
+   },
+   {
+    "ok": true,
+    "text": "S10 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S10 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 reported"
+   },
+   {
+    "ok": true,
+    "text": "S11 cells [3713, 3716, 3719].. == model [3713, 3716, 3719].."
+   },
+   {
+    "ok": true,
+    "text": "S11 VSUM 41035 ~ 41035"
+   },
+   {
+    "ok": true,
+    "text": "S11 VBATT_DIV 41034 ~ 41034"
+   },
+   {
+    "ok": true,
+    "text": "S11 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S11 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "slave 12 reported"
+   },
+   {
+    "ok": true,
+    "text": "S12 cells [3714, 3717, 3720].. == model [3714, 3717, 3720].."
+   },
+   {
+    "ok": true,
+    "text": "S12 VSUM 41046 ~ 41046"
+   },
+   {
+    "ok": true,
+    "text": "S12 VBATT_DIV 41046 ~ 41046"
+   },
+   {
+    "ok": true,
+    "text": "S12 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S12 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x200 transmitted (410)"
+   },
+   {
+    "ok": false,
+    "text": "CAN 0x200 period 11.8 ms (nominal 10)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x203 transmitted (217)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x203 period 22.2 ms (nominal 20)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x204 transmitted (217)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x204 period 22.2 ms (nominal 20)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x206 transmitted (49)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x206 period 100.0 ms (nominal 100)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x208 transmitted (49)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x208 period 100.0 ms (nominal 100)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x20F transmitted (4)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x20F period 1000.0 ms (nominal 1000)"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Status stSys = 1 running (last 1)"
+   },
+   {
+    "ok": true,
+    "text": "final snapshot"
+   },
+   {
+    "ok": true,
+    "text": "AMS_ERROR pin (PC6) low"
+   },
+   {
+    "ok": true,
+    "text": "ERR LED off"
+   },
+   {
+    "ok": true,
+    "text": "STAT2 LED on (chain ready)"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "TH rx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S2: Normal, chip_ID=2 (got Normal id=2)"
+   },
+   {
+    "ok": true,
+    "text": "S2: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S2: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S3: Normal, chip_ID=3 (got Normal id=3)"
+   },
+   {
+    "ok": true,
+    "text": "S3: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S3: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S4: Normal, chip_ID=4 (got Normal id=4)"
+   },
+   {
+    "ok": true,
+    "text": "S4: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S4: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S5: Normal, chip_ID=5 (got Normal id=5)"
+   },
+   {
+    "ok": true,
+    "text": "S5: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S5: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S6: Normal, chip_ID=6 (got Normal id=6)"
+   },
+   {
+    "ok": true,
+    "text": "S6: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S6: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S7: Normal, chip_ID=7 (got Normal id=7)"
+   },
+   {
+    "ok": true,
+    "text": "S7: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S7: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S8: Normal, chip_ID=8 (got Normal id=8)"
+   },
+   {
+    "ok": true,
+    "text": "S8: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S8: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S9: Normal, chip_ID=9 (got Normal id=9)"
+   },
+   {
+    "ok": true,
+    "text": "S9: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S9: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S10: Normal, chip_ID=10 (got Normal id=10)"
+   },
+   {
+    "ok": true,
+    "text": "S10: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S10: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S11: Normal, chip_ID=11 (got Normal id=11)"
+   },
+   {
+    "ok": true,
+    "text": "S11: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S11: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 12 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S12: Normal, chip_ID=12 (got Normal id=12)"
+   },
+   {
+    "ok": true,
+    "text": "S12: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S12: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S12: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S1: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S2: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S3: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S4: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S5: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S6: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S7: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S8: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S9: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S10: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S11: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "S12: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S12: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "dual ring reported closed"
+   },
+   {
+    "ok": true,
+    "text": "L9963TL enabled"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/nominal_n12dual"
+ },
+ {
+  "scenario": "nominal_n1dual",
+  "ok": true,
+  "wall_s": 12.8,
+  "checks": [
+   {
+    "ok": true,
+    "text": "chain initialised exactly once (1)"
+   },
+   {
+    "ok": true,
+    "text": "chain ready at 0.042 s (< 0.5 s)"
+   },
+   {
+    "ok": true,
+    "text": "no AMS error / fault (ams=0 faults=0x00)"
+   },
+   {
+    "ok": true,
+    "text": "measurement cycles 40 in 3.96 s after ready (period 100 ms)"
+   },
+   {
+    "ok": true,
+    "text": "cycle duration 6 ms"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 reported"
+   },
+   {
+    "ok": true,
+    "text": "S1 cells [3703, 3706, 3709].. == model [3703, 3706, 3709].."
+   },
+   {
+    "ok": true,
+    "text": "S1 VSUM 40925 ~ 40925"
+   },
+   {
+    "ok": true,
+    "text": "S1 VBATT_DIV 40925 ~ 40925"
+   },
+   {
+    "ok": true,
+    "text": "S1 temperatures [254, 254].. ~ 25.4 C"
+   },
+   {
+    "ok": true,
+    "text": "S1 no failed cycles (0)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x200 transmitted (495)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x200 period 10.0 ms (nominal 10)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x203 transmitted (248)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x203 period 20.0 ms (nominal 20)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x204 transmitted (248)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x204 period 20.0 ms (nominal 20)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x206 transmitted (49)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x206 period 100.0 ms (nominal 100)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x208 transmitted (49)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x208 period 100.0 ms (nominal 100)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x20F transmitted (4)"
+   },
+   {
+    "ok": true,
+    "text": "CAN 0x20F period 1000.0 ms (nominal 1000)"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Status stSys = 1 running (last 1)"
+   },
+   {
+    "ok": true,
+    "text": "final snapshot"
+   },
+   {
+    "ok": true,
+    "text": "AMS_ERROR pin (PC6) low"
+   },
+   {
+    "ok": true,
+    "text": "ERR LED off"
+   },
+   {
+    "ok": true,
+    "text": "STAT2 LED on (chain ready)"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "TH rx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: never fell asleep by CommTimeout while running"
+   },
+   {
+    "ok": true,
+    "text": "S1: isotx_en_h=1"
+   },
+   {
+    "ok": true,
+    "text": "dual ring reported closed"
+   },
+   {
+    "ok": true,
+    "text": "L9963TL enabled"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/nominal_n1dual"
+ },
+ {
+  "scenario": "fault_ov",
+  "ok": true,
+  "wall_s": 11.9,
+  "checks": [
+   {
+    "ok": true,
+    "text": "AMS pin low before the fault"
+   },
+   {
+    "ok": true,
+    "text": "AMS ERROR asserted"
+   },
+   {
+    "ok": true,
+    "text": "reaction time 315 ms <= 500 ms"
+   },
+   {
+    "ok": true,
+    "text": "persistence filter applied (315 ms)"
+   },
+   {
+    "ok": true,
+    "text": "latched fault 0x01 (got 0x01)"
+   },
+   {
+    "ok": true,
+    "text": "AMS_ERROR pin (PC6) high"
+   },
+   {
+    "ok": true,
+    "text": "ERR LED on"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Status stSys = 2 (AMS error) after the fault"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Diagnosis carries the fault (0000000008000000)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/fault_ov"
+ },
+ {
+  "scenario": "fault_uv",
+  "ok": true,
+  "wall_s": 12.1,
+  "checks": [
+   {
+    "ok": true,
+    "text": "AMS pin low before the fault"
+   },
+   {
+    "ok": true,
+    "text": "AMS ERROR asserted"
+   },
+   {
+    "ok": true,
+    "text": "reaction time 315 ms <= 500 ms"
+   },
+   {
+    "ok": true,
+    "text": "persistence filter applied (315 ms)"
+   },
+   {
+    "ok": true,
+    "text": "latched fault 0x02 (got 0x02)"
+   },
+   {
+    "ok": true,
+    "text": "AMS_ERROR pin (PC6) high"
+   },
+   {
+    "ok": true,
+    "text": "ERR LED on"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Status stSys = 2 (AMS error) after the fault"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Diagnosis carries the fault (0000000004000000)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/fault_uv"
+ },
+ {
+  "scenario": "fault_ot",
+  "ok": true,
+  "wall_s": 12.5,
+  "checks": [
+   {
+    "ok": true,
+    "text": "AMS pin low before the fault"
+   },
+   {
+    "ok": true,
+    "text": "AMS ERROR asserted"
+   },
+   {
+    "ok": true,
+    "text": "reaction time 615 ms <= 1000 ms"
+   },
+   {
+    "ok": true,
+    "text": "persistence filter applied (615 ms)"
+   },
+   {
+    "ok": true,
+    "text": "latched fault 0x04 (got 0x04)"
+   },
+   {
+    "ok": true,
+    "text": "AMS_ERROR pin (PC6) high"
+   },
+   {
+    "ok": true,
+    "text": "ERR LED on"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Status stSys = 2 (AMS error) after the fault"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Diagnosis carries the fault (0000000002000000)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/fault_ot"
+ },
+ {
+  "scenario": "fault_ntc_short",
+  "ok": true,
+  "wall_s": 11.3,
+  "checks": [
+   {
+    "ok": true,
+    "text": "AMS pin low before the fault"
+   },
+   {
+    "ok": true,
+    "text": "AMS ERROR asserted"
+   },
+   {
+    "ok": true,
+    "text": "reaction time 615 ms <= 1000 ms"
+   },
+   {
+    "ok": true,
+    "text": "persistence filter applied (615 ms)"
+   },
+   {
+    "ok": true,
+    "text": "latched fault 0x10 (got 0x10)"
+   },
+   {
+    "ok": true,
+    "text": "AMS_ERROR pin (PC6) high"
+   },
+   {
+    "ok": true,
+    "text": "ERR LED on"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Status stSys = 2 (AMS error) after the fault"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Diagnosis carries the fault (0000000001000000)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/fault_ntc_short"
+ },
+ {
+  "scenario": "fault_ntc_open",
+  "ok": true,
+  "wall_s": 11.4,
+  "checks": [
+   {
+    "ok": true,
+    "text": "AMS pin low before the fault"
+   },
+   {
+    "ok": true,
+    "text": "AMS ERROR asserted"
+   },
+   {
+    "ok": true,
+    "text": "reaction time 615 ms <= 1000 ms"
+   },
+   {
+    "ok": true,
+    "text": "persistence filter applied (615 ms)"
+   },
+   {
+    "ok": true,
+    "text": "latched fault 0x10 (got 0x10)"
+   },
+   {
+    "ok": true,
+    "text": "AMS_ERROR pin (PC6) high"
+   },
+   {
+    "ok": true,
+    "text": "ERR LED on"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Status stSys = 2 (AMS error) after the fault"
+   },
+   {
+    "ok": true,
+    "text": "HVB_RX_Diagnosis carries the fault (0000000001000000)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/fault_ntc_open"
+ },
+ {
+  "scenario": "fault_spike",
+  "ok": true,
+  "wall_s": 11.5,
+  "checks": [
+   {
+    "ok": true,
+    "text": "a 150 ms spike does not trip the AMS"
+   },
+   {
+    "ok": true,
+    "text": "AMS pin low"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/fault_ov_spike_150ms"
+ },
+ {
+  "scenario": "break_single",
+  "ok": true,
+  "wall_s": 21.3,
+  "checks": [
+   {
+    "ok": true,
+    "text": "communication loss trips the AMS"
+   },
+   {
+    "ok": true,
+    "text": "reaction 352 ms <= 500 ms"
+   },
+   {
+    "ok": true,
+    "text": "first slave beyond the break (6) reported"
+   },
+   {
+    "ok": true,
+    "text": "re-initialisation pinpoints the break (5/11, no answer from slave 6)"
+   },
+   {
+    "ok": true,
+    "text": "chain re-initialised after the link is restored ([0.142, 5.189])"
+   },
+   {
+    "ok": true,
+    "text": "all 11 slaves reported again at the end"
+   },
+   {
+    "ok": true,
+    "text": "AFE ready at the end"
+   },
+   {
+    "ok": true,
+    "text": "AMS stays latched after recovery (manual reset required)"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "TH rx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S2: Normal, chip_ID=2 (got Normal id=2)"
+   },
+   {
+    "ok": true,
+    "text": "S2: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S2: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S3: Normal, chip_ID=3 (got Normal id=3)"
+   },
+   {
+    "ok": true,
+    "text": "S3: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S3: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S4: Normal, chip_ID=4 (got Normal id=4)"
+   },
+   {
+    "ok": true,
+    "text": "S4: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S4: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S5: Normal, chip_ID=5 (got Normal id=5)"
+   },
+   {
+    "ok": true,
+    "text": "S5: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S5: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S6: Normal, chip_ID=6 (got Normal id=6)"
+   },
+   {
+    "ok": true,
+    "text": "S6: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S6: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S7: Normal, chip_ID=7 (got Normal id=7)"
+   },
+   {
+    "ok": true,
+    "text": "S7: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S7: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S8: Normal, chip_ID=8 (got Normal id=8)"
+   },
+   {
+    "ok": true,
+    "text": "S8: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S8: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S9: Normal, chip_ID=9 (got Normal id=9)"
+   },
+   {
+    "ok": true,
+    "text": "S9: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S9: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S10: Normal, chip_ID=10 (got Normal id=10)"
+   },
+   {
+    "ok": true,
+    "text": "S10: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S10: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S11: Normal, chip_ID=11 (got Normal id=11)"
+   },
+   {
+    "ok": true,
+    "text": "S11: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S11: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: CommTimeout code 1 (got 1)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/break_single_ring_n11"
+ },
+ {
+  "scenario": "break_dual",
+  "ok": true,
+  "wall_s": 17.1,
+  "checks": [
+   {
+    "ok": true,
+    "text": "a single break of the dual ring does not trip the AMS"
+   },
+   {
+    "ok": true,
+    "text": "ring opening detected"
+   },
+   {
+    "ok": true,
+    "text": "ring closing detected"
+   },
+   {
+    "ok": true,
+    "text": "slaves 7..12 moved to the L9963TL ([7, 8, 9, 10, 11, 12])"
+   },
+   {
+    "ok": true,
+    "text": "no fault while the ring is open"
+   },
+   {
+    "ok": true,
+    "text": "cycle time with the ring open 20 ms"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S2: Normal, chip_ID=2 (got Normal id=2)"
+   },
+   {
+    "ok": true,
+    "text": "S2: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S2: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S3: Normal, chip_ID=3 (got Normal id=3)"
+   },
+   {
+    "ok": true,
+    "text": "S3: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S3: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S4: Normal, chip_ID=4 (got Normal id=4)"
+   },
+   {
+    "ok": true,
+    "text": "S4: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S4: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S5: Normal, chip_ID=5 (got Normal id=5)"
+   },
+   {
+    "ok": true,
+    "text": "S5: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S5: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S6: Normal, chip_ID=6 (got Normal id=6)"
+   },
+   {
+    "ok": true,
+    "text": "S6: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S6: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S7: Normal, chip_ID=7 (got Normal id=7)"
+   },
+   {
+    "ok": true,
+    "text": "S7: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S7: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S8: Normal, chip_ID=8 (got Normal id=8)"
+   },
+   {
+    "ok": true,
+    "text": "S8: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S8: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S9: Normal, chip_ID=9 (got Normal id=9)"
+   },
+   {
+    "ok": true,
+    "text": "S9: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S9: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S10: Normal, chip_ID=10 (got Normal id=10)"
+   },
+   {
+    "ok": true,
+    "text": "S10: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S10: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S11: Normal, chip_ID=11 (got Normal id=11)"
+   },
+   {
+    "ok": true,
+    "text": "S11: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S11: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 12 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S12: Normal, chip_ID=12 (got Normal id=12)"
+   },
+   {
+    "ok": true,
+    "text": "S12: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S12: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S12: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "WARN LED on while the ring is open"
+   },
+   {
+    "ok": true,
+    "text": "WARN LED off when the ring is closed again"
+   },
+   {
+    "ok": true,
+    "text": "all slaves back on the L9963TH after the ring closed"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/break_dual_ring_n12"
+ },
+ {
+  "scenario": "slave_power_cycle",
+  "ok": true,
+  "wall_s": 18.8,
+  "checks": [
+   {
+    "ok": true,
+    "text": "slave 4 loss detected"
+   },
+   {
+    "ok": true,
+    "text": "chain re-addressed with the power-cycled slave ([0.142, 4.072])"
+   },
+   {
+    "ok": true,
+    "text": "all 11 slaves reported at the end"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "TH rx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S2: Normal, chip_ID=2 (got Normal id=2)"
+   },
+   {
+    "ok": true,
+    "text": "S2: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S2: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S3: Normal, chip_ID=3 (got Normal id=3)"
+   },
+   {
+    "ok": true,
+    "text": "S3: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S3: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S4: Normal, chip_ID=4 (got Normal id=4)"
+   },
+   {
+    "ok": true,
+    "text": "S4: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S4: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S5: Normal, chip_ID=5 (got Normal id=5)"
+   },
+   {
+    "ok": true,
+    "text": "S5: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S5: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S6: Normal, chip_ID=6 (got Normal id=6)"
+   },
+   {
+    "ok": true,
+    "text": "S6: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S6: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S7: Normal, chip_ID=7 (got Normal id=7)"
+   },
+   {
+    "ok": true,
+    "text": "S7: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S7: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S8: Normal, chip_ID=8 (got Normal id=8)"
+   },
+   {
+    "ok": true,
+    "text": "S8: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S8: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S9: Normal, chip_ID=9 (got Normal id=9)"
+   },
+   {
+    "ok": true,
+    "text": "S9: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S9: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S10: Normal, chip_ID=10 (got Normal id=10)"
+   },
+   {
+    "ok": true,
+    "text": "S10: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S10: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S11: Normal, chip_ID=11 (got Normal id=11)"
+   },
+   {
+    "ok": true,
+    "text": "S11: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S11: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: CommTimeout code 1 (got 1)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/slave4_power_cycle_n11"
+ },
+ {
+  "scenario": "warm_reset",
+  "ok": true,
+  "wall_s": 16.0,
+  "checks": [
+   {
+    "ok": true,
+    "text": "two boots (2)"
+   },
+   {
+    "ok": true,
+    "text": "chain awake in fast mode detected and reset"
+   },
+   {
+    "ok": true,
+    "text": "chain ready after the reset ([0.142, 0.144])"
+   },
+   {
+    "ok": true,
+    "text": "re-initialisation after reset in 144 ms"
+   },
+   {
+    "ok": true,
+    "text": "no AMS error"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "TH rx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S2: Normal, chip_ID=2 (got Normal id=2)"
+   },
+   {
+    "ok": true,
+    "text": "S2: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S2: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S3: Normal, chip_ID=3 (got Normal id=3)"
+   },
+   {
+    "ok": true,
+    "text": "S3: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S3: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S4: Normal, chip_ID=4 (got Normal id=4)"
+   },
+   {
+    "ok": true,
+    "text": "S4: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S4: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S5: Normal, chip_ID=5 (got Normal id=5)"
+   },
+   {
+    "ok": true,
+    "text": "S5: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S5: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S6: Normal, chip_ID=6 (got Normal id=6)"
+   },
+   {
+    "ok": true,
+    "text": "S6: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S6: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S7: Normal, chip_ID=7 (got Normal id=7)"
+   },
+   {
+    "ok": true,
+    "text": "S7: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S7: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S8: Normal, chip_ID=8 (got Normal id=8)"
+   },
+   {
+    "ok": true,
+    "text": "S8: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S8: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S9: Normal, chip_ID=9 (got Normal id=9)"
+   },
+   {
+    "ok": true,
+    "text": "S9: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S9: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S10: Normal, chip_ID=10 (got Normal id=10)"
+   },
+   {
+    "ok": true,
+    "text": "S10: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S10: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S11: Normal, chip_ID=11 (got Normal id=11)"
+   },
+   {
+    "ok": true,
+    "text": "S11: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S11: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: CommTimeout code 1 (got 1)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/mcu_warm_reset_n11"
+ },
+ {
+  "scenario": "noise",
+  "ok": true,
+  "wall_s": 19.2,
+  "checks": [
+   {
+    "ok": true,
+    "text": "2.5% corrupted frames: no AMS error"
+   },
+   {
+    "ok": true,
+    "text": "chain initialised with noise ([0.155])"
+   },
+   {
+    "ok": true,
+    "text": "measurement cycles 50"
+   },
+   {
+    "ok": true,
+    "text": "578 frames corrupted by the model"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "TH rx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S2: Normal, chip_ID=2 (got Normal id=2)"
+   },
+   {
+    "ok": true,
+    "text": "S2: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S2: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S3: Normal, chip_ID=3 (got Normal id=3)"
+   },
+   {
+    "ok": true,
+    "text": "S3: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S3: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S4: Normal, chip_ID=4 (got Normal id=4)"
+   },
+   {
+    "ok": true,
+    "text": "S4: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S4: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S5: Normal, chip_ID=5 (got Normal id=5)"
+   },
+   {
+    "ok": true,
+    "text": "S5: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S5: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S6: Normal, chip_ID=6 (got Normal id=6)"
+   },
+   {
+    "ok": true,
+    "text": "S6: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S6: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S7: Normal, chip_ID=7 (got Normal id=7)"
+   },
+   {
+    "ok": true,
+    "text": "S7: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S7: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S8: Normal, chip_ID=8 (got Normal id=8)"
+   },
+   {
+    "ok": true,
+    "text": "S8: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S8: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S9: Normal, chip_ID=9 (got Normal id=9)"
+   },
+   {
+    "ok": true,
+    "text": "S9: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S9: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S10: Normal, chip_ID=10 (got Normal id=10)"
+   },
+   {
+    "ok": true,
+    "text": "S10: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S10: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S11: Normal, chip_ID=11 (got Normal id=11)"
+   },
+   {
+    "ok": true,
+    "text": "S11: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S11: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: CommTimeout code 1 (got 1)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/isoline_noise_n11"
+ },
+ {
+  "scenario": "missing_slave",
+  "ok": true,
+  "wall_s": 14.1,
+  "checks": [
+   {
+    "ok": true,
+    "text": "diagnostic: 10/11 slaves answered, no answer from slave 11"
+   },
+   {
+    "ok": true,
+    "text": "AMS error at the end of the start-up grace time (3.001)"
+   },
+   {
+    "ok": true,
+    "text": "AMS pin high"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/fw11_chain10_missing_slave"
+ },
+ {
+  "scenario": "fw1_on_car",
+  "ok": true,
+  "wall_s": 11.9,
+  "checks": [
+   {
+    "ok": true,
+    "text": "no AMS error"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 Normal, port H closed (Farthest_Unit)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 at most woken without address (DS fig. 7 opens port H of slave 1)"
+   },
+   {
+    "ok": true,
+    "text": "slaves 3..11 never woken"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/fw1_on_chain11"
+ },
+ {
+  "scenario": "can_noack",
+  "ok": false,
+  "wall_s": 11.3,
+  "checks": [
+   {
+    "ok": true,
+    "text": "measurements keep running with CAN mailboxes stuck"
+   },
+   {
+    "ok": true,
+    "text": "no AMS error"
+   },
+   {
+    "ok": false,
+    "text": "stale frames aborted by the firmware (0)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/can_no_ack"
+ },
+ {
+  "scenario": "long_run",
+  "ok": true,
+  "wall_s": 80.8,
+  "checks": [
+   {
+    "ok": true,
+    "text": "no reset (watchdog) in 60 s"
+   },
+   {
+    "ok": true,
+    "text": "cycles 600 in 60 s"
+   },
+   {
+    "ok": true,
+    "text": "no fault"
+   },
+   {
+    "ok": true,
+    "text": "zero failed reads on 12 slaves"
+   },
+   {
+    "ok": true,
+    "text": "TH tx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "TH rx queue never overflowed (0)"
+   },
+   {
+    "ok": true,
+    "text": "no command ever sent with TXEN low"
+   },
+   {
+    "ok": true,
+    "text": "no SPI clocking with NCS high"
+   },
+   {
+    "ok": true,
+    "text": "no frame before T_WAKEUP of the transceiver"
+   },
+   {
+    "ok": true,
+    "text": "slave 1 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S1: Normal, chip_ID=1 (got Normal id=1)"
+   },
+   {
+    "ok": true,
+    "text": "S1: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S1: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S1: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 2 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S2: Normal, chip_ID=2 (got Normal id=2)"
+   },
+   {
+    "ok": true,
+    "text": "S2: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S2: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S2: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 3 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S3: Normal, chip_ID=3 (got Normal id=3)"
+   },
+   {
+    "ok": true,
+    "text": "S3: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S3: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S3: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 4 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S4: Normal, chip_ID=4 (got Normal id=4)"
+   },
+   {
+    "ok": true,
+    "text": "S4: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S4: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S4: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 5 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S5: Normal, chip_ID=5 (got Normal id=5)"
+   },
+   {
+    "ok": true,
+    "text": "S5: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S5: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S5: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 6 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S6: Normal, chip_ID=6 (got Normal id=6)"
+   },
+   {
+    "ok": true,
+    "text": "S6: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S6: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S6: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 7 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S7: Normal, chip_ID=7 (got Normal id=7)"
+   },
+   {
+    "ok": true,
+    "text": "S7: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S7: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S7: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 8 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S8: Normal, chip_ID=8 (got Normal id=8)"
+   },
+   {
+    "ok": true,
+    "text": "S8: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S8: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S8: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 9 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S9: Normal, chip_ID=9 (got Normal id=9)"
+   },
+   {
+    "ok": true,
+    "text": "S9: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S9: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S9: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 10 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S10: Normal, chip_ID=10 (got Normal id=10)"
+   },
+   {
+    "ok": true,
+    "text": "S10: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S10: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S10: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 11 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S11: Normal, chip_ID=11 (got Normal id=11)"
+   },
+   {
+    "ok": true,
+    "text": "S11: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S11: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S11: CommTimeout code 1 (got 1)"
+   },
+   {
+    "ok": true,
+    "text": "slave 12 present in the model"
+   },
+   {
+    "ok": true,
+    "text": "S12: Normal, chip_ID=12 (got Normal id=12)"
+   },
+   {
+    "ok": true,
+    "text": "S12: isoSPI fast"
+   },
+   {
+    "ok": true,
+    "text": "S12: Lock_isoh_isofreq=1"
+   },
+   {
+    "ok": true,
+    "text": "S12: CommTimeout code 1 (got 1)"
+   }
+  ],
+  "dir": "/tmp/claude-0/hil/long_run_60s_n12"
+ }
+]
